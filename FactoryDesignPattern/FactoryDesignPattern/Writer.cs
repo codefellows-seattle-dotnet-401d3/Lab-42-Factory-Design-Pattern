@@ -7,6 +7,6 @@ namespace FactoryDesignPattern
     abstract public class Writer
     {
         string Name { get; set; }
-        public abstract Document Write();
+        public abstract Document Write(string name);
     }
 }
