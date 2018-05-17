@@ -7,6 +7,6 @@ namespace FactoryDesignPattern
     abstract public class Document
     {
         public string Name { get; set; }
-        abstract public string FileExtension { get; set; }
+        public string FileExtension { get; set; }
     }
 }

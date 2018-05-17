@@ -16,7 +16,6 @@ namespace FactoryDesignPattern
             Document resume = Tolkien.Write(name);
             Console.WriteLine($"{nameof(Tolkien)} has written a resume for {resume.Name}");
             Console.WriteLine($"resume filetype is {resume.FileExtension}");
-            Conwole.WriteLine($"Previous work history: you have worked at {resume.Work}")
             Console.WriteLine("Hello World!");
         }
     }

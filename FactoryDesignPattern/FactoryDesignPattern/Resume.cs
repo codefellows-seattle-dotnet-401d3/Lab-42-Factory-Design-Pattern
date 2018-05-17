@@ -6,8 +6,7 @@ namespace FactoryDesignPattern
 {
     class Resume : Document
     {
-        public override string FileExtension { get; set; }
         public string ContactInfo { get; set; }
-        public List<Company> WorkHistory { get; set; }
+        public WorkHistory History { get; set; }
     }
 }

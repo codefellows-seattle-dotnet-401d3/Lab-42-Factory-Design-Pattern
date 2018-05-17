@@ -8,11 +8,13 @@ namespace FactoryDesignPattern
     {
         public override Document Write(string name)
         {
-            Resume resume = new Resume();
-            resume.ContactInfo = "Don't.";
-            resume.FileExtension = "ppt";
-            resume.WorkHistory = new List<Company>();
-            resume.Name = $"{name}'s Resume {DateTime.Now}";
+            Resume resume = new Resume
+            {
+                ContactInfo = "Don't.",
+                FileExtension = "ppt",
+                History = new WorkHistory(),
+                Name = $"{name}'s Resume {DateTime.Now}"
+            };
             return resume;
         }
     }
