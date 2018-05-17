@@ -1,4 +1,15 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Lab42-Factory Method Design Pattern
+# Lab42-Factory Method Design Pattern
+
+## Overview
+The purpose of this excercise is to code out an example of the factory design pattern in OOP.
+
+## Architecture
+There are `Pages` that make up parts of `Documents`. A given `Writer` will have a `Write` method that will instantiate the `Pages` for a given `Document`.
+
+`Writer` is the abstract creator
+`ResumeWriter` is the concrete creator
+`Document` is the abstract class of which things are created
+`Resume` and `Report` are concrete classes derived from `Document`
 =====================================
 
 ## To Submit this Assignment
