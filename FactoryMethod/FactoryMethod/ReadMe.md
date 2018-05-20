@@ -20,6 +20,9 @@ Concrete
 - Project page
 - Work Page
 - Skill Page
+- Hull Page
+- Inventory Page
+- Casualty Page
 
 ## Creator
 Abstract 

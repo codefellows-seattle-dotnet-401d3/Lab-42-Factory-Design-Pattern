@@ -6,6 +6,7 @@ namespace FactoryMethod
 {
     public class Work : Page
     {
+        //Concrete product class
         public Work(string[] data)
         {
             Title = data[0];

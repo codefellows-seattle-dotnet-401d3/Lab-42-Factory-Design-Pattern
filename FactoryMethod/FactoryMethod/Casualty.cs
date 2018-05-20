@@ -6,6 +6,7 @@ namespace FactoryMethod
 {
     class Casualty : Page
     {
+        //Concrete product class
         public Casualty(string[] data)
         {
             Title = data[0];
