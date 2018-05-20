@@ -4,6 +4,7 @@ using System.Text;
 
 namespace FactoryMethod
 {
+    //Concrete creator class
     public class ResumeFactory
     {
         public static Page CreatePage(string type, string[] data)

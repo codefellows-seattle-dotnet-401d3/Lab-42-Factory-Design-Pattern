@@ -4,6 +4,7 @@ using System.Text;
 
 namespace FactoryMethod
 {
+    //abstract product class
     public abstract class Page
     {
         public string Title { get; set; }

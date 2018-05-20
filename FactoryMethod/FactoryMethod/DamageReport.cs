@@ -13,6 +13,7 @@ namespace FactoryMethod
             CreatePage("Inventory");
         }
 
+        //Factory method
         protected override Page CreatePage(string type)
         {
             string[] data = new string[3] { "DamageReport Title", "DamageReport Author", "DamageReport Date" };

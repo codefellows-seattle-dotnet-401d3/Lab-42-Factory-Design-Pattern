@@ -6,6 +6,7 @@ namespace FactoryMethod
 {
     public class Hull : Page
     {
+        //Concrete product class
         public Hull(string[] data)
         {
             Title = data[0];

@@ -6,6 +6,7 @@ namespace FactoryMethod
 {
     class Inventory : Page
     {
+        //Concrete product class
         public Inventory(string[] data)
         {
             Title = data[0];

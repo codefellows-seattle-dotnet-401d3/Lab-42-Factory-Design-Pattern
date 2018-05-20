@@ -4,6 +4,7 @@ using System.Text;
 
 namespace FactoryMethod
 {
+    //Concrete product class
     public class Project : Page
     {
         public Project(string[] data)
