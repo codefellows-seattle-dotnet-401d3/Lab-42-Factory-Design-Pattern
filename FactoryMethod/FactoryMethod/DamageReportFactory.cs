@@ -6,6 +6,12 @@ namespace FactoryMethod
 {
     class DamageReportFactory
     {
+        /// <summary>
+        /// Factory method
+        /// </summary>
+        /// <param name="type"></param>
+        /// <param name="data"></param>
+        /// <returns>Damage Report Page based on peram</returns>
         public static Page CreatePage(string type, string[] data)
         {
             Page page = null;
