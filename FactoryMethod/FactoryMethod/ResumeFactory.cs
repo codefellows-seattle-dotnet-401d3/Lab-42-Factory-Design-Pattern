@@ -7,6 +7,12 @@ namespace FactoryMethod
     //Concrete creator class
     public class ResumeFactory
     {
+        /// <summary>
+        /// Factory method
+        /// </summary>
+        /// <param name="type"></param>
+        /// <param name="data"></param>
+        /// <returns>Resume page</returns>
         public static Page CreatePage(string type, string[] data)
         {
             Page page = null;
